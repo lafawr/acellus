@@ -5,7 +5,7 @@
 
 ## What the tradeoff is (This is the only way to not get detected for pasting)
 
-- The expected mechanism the software is expecting the original text that Acellus reproduces inherently before a human removes it and would manually write in. I made it so it detects Acellus's original essay, then all you need to do is write right next to the original text, and it bypasses their automated detection 
+- The expected mechanism the software is expecting the original text that Acellus reproduces inherently before a human removes it and would manually write in (if it detects it properly). I made it so it detects Acellus's original essay, then all you need to do is write right next to the original text, and it bypasses their automated detection 
 - Once done writing exactly right next to it, remove the original text that Acellus put as the paste already went in without detection, after that, you can submit.
 
 ## Why no JavaScript
@@ -15,3 +15,8 @@
 ## If you don't want to do the tradeoff, only other option
 
 - Either use the copying (which is bypassed) and then paste it into an AI such as ChatGPT or Google Gemini, and then manually write the output. 
+- Unfortunately, if Acellus is requiring you to write it all manually with no inherent text by them, there's no way to paste without being detected automatically, so it'd be entirely off-limits
+
+## Note
+
+- This was rushed to get in, and I might've fucked the code, but since I already passed the Writing Tutor, I can't go back to test it again and ensure the software is still working
